@@ -3,7 +3,6 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { useState, useEffect } from 'react';
 import nav1 from "../images/nav-icon1.svg"
-import nav2 from "../images/nav-icon2.svg"
 import nav3 from "../images/Twitter-logo.svg.png";
 import { HashLink } from 'react-router-hash-link';
 import {
