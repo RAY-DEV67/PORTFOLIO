@@ -1,13 +1,10 @@
 import Container from 'react-bootstrap/Container';
-import NavbarToggle from 'react-bootstrap/esm/NavbarToggle';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
 import { useState, useEffect } from 'react';
 import nav1 from "../images/nav-icon1.svg"
 import nav2 from "../images/nav-icon2.svg"
 import nav3 from "../images/Twitter-logo.svg.png";
-// import { Navbar, Nav, Container } from "react-bootstrap";
 import { HashLink } from 'react-router-hash-link';
 import {
   BrowserRouter as Router
@@ -54,9 +51,8 @@ export const NavBar = () => {
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
-                <a href="https://www.linkedin.com/in/ekene-elebor-57ba38206/" target="_blank"><img src={nav1} alt="" /></a>
-                <a href="#"><img src={nav2} alt="" /></a>
-                <a href="https://twitter.com/Ray_dev67" target="_blank" ><img src={nav3} alt="" /></a>
+                <a href="https://www.linkedin.com/in/ekene-elebor-57ba38206/" target="_blank" rel="noreferrer"><img src={nav1} alt="" /></a>
+                <a href="https://twitter.com/Ray_dev67" target="_blank" rel="noreferrer"><img src={nav3} alt="" /></a>
               </div>
               <HashLink to='#connect'>
                 <button className="vvd"><span>Let’s Connect</span></button>

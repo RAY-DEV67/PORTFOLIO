@@ -1,6 +1,5 @@
 import { Container, Row, Col } from "react-bootstrap";
 import { ArrowRightCircle } from "react-bootstrap-icons";
-import { useState, useEffect } from "react";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
 import bitmoji from "../images/profile.webp";
