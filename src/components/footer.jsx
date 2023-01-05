@@ -1,5 +1,4 @@
 import { Container, Row, Col } from "react-bootstrap";
-import { MailchimpForm } from "./MailchimpForm";
 import navIcon1 from "../images/nav-icon1.svg";
 import navIcon3 from "../images/Twitter-logo.svg.png";
 
@@ -8,7 +7,6 @@ export const Footer = () => {
     <footer className="footer">
       <Container>
         <Row className="align-items-center">
-          <MailchimpForm />
           <Col size={12} sm={6}>
             <p>Ray_Dev</p>
           </Col>

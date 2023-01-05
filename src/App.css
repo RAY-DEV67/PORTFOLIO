@@ -299,6 +299,34 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
         transform: translateY(-20px);
     }
 }
+.intro-cont{
+  perspective: 150px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+  width: 100%;
+  height: 100vh;
+  background: #151515;
+  background-size: cover;
+  background-image: url('./images/color-sharp.png');
+}
+.intro{
+  animation: front 3s linear infinite;
+  width: 15%;
+}
+@keyframes front {
+  0% {
+      transform: translateZ(-10px);
+  }
+  50% {
+      transform: translateZ(10px);
+  }
+  100% {
+      transform: translateZ(-10px);
+  }
+}
+
+
 .txt-rotate > .wrap {
   border-right: 0.08em solid #666;
 }
@@ -969,6 +997,10 @@ background: linear-gradient(to right, #f32170,
     overflow-y: auto;
     border-radius: 10px;
   }
+  .intro{
+    animation: front 3s linear infinite;
+    width: 40%;
+  }
 }
 
 @media (max-width:700px) {
@@ -1004,6 +1036,10 @@ background: linear-gradient(to right, #f32170,
   .new-email-bx button {
     padding: 10px 65px;
     margin-top: 1rem;
+  }
+  .intro{
+    animation: front 3s linear infinite;
+    width: 40%;
   }
 }
 
@@ -1073,5 +1109,9 @@ background: linear-gradient(to right, #f32170,
     height: 500px;
     overflow-y: auto;
     border-radius: 10px;
+  }
+  .intro{
+    animation: front 3s linear infinite;
+    width: 40%;
   }
 }

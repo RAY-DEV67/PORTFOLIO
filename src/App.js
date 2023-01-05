@@ -7,26 +7,42 @@ import { Skills } from "./components/skills";
 import { Projects } from "./components/projects";
 import { Contact } from "./components/contact";
 import { Footer } from "./components/footer";
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import intro from "./images/intro-loader.webp"
 
 
 
 function App() {
+const [loading, setloading] = useState(false);
 
-  const [showAbout, setshowAbout] = useState(false);
+useEffect(() => {
+  setloading(true)
+  setTimeout(() => {
+    setloading(false)
+  }, 4000)
+}, []);
 
   return (
     <div className="App">
-      <NavBar />
-      <Banner />
-      <Skills />
-      <Projects setshowAbout={setshowAbout} showAbout={showAbout}/>
-      <Contact/>
-      <Footer/>
-      <div onClick={() => {
-          $(".about-page").fadeOut()
-          $(".overlay").fadeOut()
-      }} className="overlay"></div>
+      {loading ? <div className="intro-cont">
+        <img src={intro} alt="" className="intro"/> 
+      </div>
+      :
+      <div>
+         <NavBar />
+       <Banner />
+       <Skills />
+       <Projects/>
+       <Contact/>
+       <Footer/>
+       <div onClick={() => {
+           $(".about-page").fadeOut()
+           $(".overlay").fadeOut()
+       }} className="overlay"></div>
+      </div>
+       
+      }
+     
     </div>
   );
 }
