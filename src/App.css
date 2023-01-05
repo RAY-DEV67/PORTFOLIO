@@ -589,7 +589,7 @@ background: linear-gradient(to right, #f32170,
 .proj-txtx {
   position: absolute;
   text-align: center;
-  top: 65%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   transition: 0.5s ease-in-out;
@@ -649,6 +649,81 @@ background: linear-gradient(to right, #f32170,
 }
 .code a{
   text-decoration: none;
+}
+.about-page{
+  background-image: url('./images/color-sharp.png');
+  /* background-position: 10%; */
+  background-size: cover;
+  background-color: #121212;
+  position: fixed;
+  width: 90%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 60rem;
+  box-shadow: 0 4rem 6rem rgba(0, 0, 0, 0.3);
+  z-index: 1000000;
+  transition: all 1s;
+  padding: 1rem;
+  height: 600px;
+  overflow-y: auto;
+  border-radius: 10px;
+  display: none;
+}
+.stack{
+ font-style: italic;
+}
+.users{
+ font-weight: 800;
+}
+.close{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  top: 5%;
+  left: 90%;
+  border: 1px solid;
+  height: 30px;
+  width: 30px;
+  font-size: 2rem !important;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.close:hover{
+  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+}
+.cl{
+ text-align: center !important;
+ transform: translateY(35%);
+}
+.about-title{
+  background: linear-gradient(to right, #f32170,
+#ff6b08, #cf23cf, #eedd44);
+-webkit-text-fill-color: transparent;
+-webkit-background-clip: text;
+}
+.about-page p{
+  width: 100%;
+  text-align: left;
+}
+.about-img{
+  border-radius: 10px;
+}
+.about-page h3{
+  margin-top: 3rem;
+  text-align: center;
+}
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(4px);
+  z-index: 90000;
+  transition: all 1s;
+  display: none;
 }
 
 /************ Contact Css ************/
@@ -877,6 +952,23 @@ background: linear-gradient(to right, #f32170,
   .proj-txtx{
     padding-top: 0.5rem;
   }
+  .about-page{
+    background-image: url('./images/color-sharp.png');
+    background-color: #121212;
+    position: fixed;
+    width: 90%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 60rem;
+    box-shadow: 0 4rem 6rem rgba(0, 0, 0, 0.3);
+    z-index: 1000000;
+    transition: all 0.5s;
+    padding: 1rem;
+    height: 500px;
+    overflow-y: auto;
+    border-radius: 10px;
+  }
 }
 
 @media (max-width:700px) {
@@ -964,5 +1056,22 @@ background: linear-gradient(to right, #f32170,
   .new-email-bx button {
     padding: 10px 65px;
     margin-top: 1rem;
+  }
+  .about-page{
+    background-image: url('./images/color-sharp.png');
+    background-color: #121212;
+    position: fixed;
+    width: 90%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 60rem;
+    box-shadow: 0 4rem 6rem rgba(0, 0, 0, 0.3);
+    z-index: 1000000;
+    transition: all 0.5s;
+    padding: 1rem;
+    height: 500px;
+    overflow-y: auto;
+    border-radius: 10px;
   }
 }

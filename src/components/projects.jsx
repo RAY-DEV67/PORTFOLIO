@@ -29,9 +29,12 @@ import "animate.css";
 import TrackVisibility from "react-on-screen";
 import { Ecommerce } from "./ecommerce";
 import { Main } from "./main";
+import { About} from "./about";
 import { useInView } from 'react-intersection-observer';
+import { useState } from "react";
 
-export const Projects = () => {
+export const Projects = ({showAbout , setshowAbout}) => {
+  const [aboutProject, setaboutProject] = useState("1a");
 
   const { ref : myRef, inView : myElementIsVisible} = useInView();
   const { ref : projectsRef, inView : projectIsVisible} = useInView();
@@ -61,6 +64,7 @@ export const Projects = () => {
       stack: "HTML, CSS, JavaScript",
       git: "https://github.com/RAY-DEV67/BANKIST",
       live: "https://bankist-finapp.netlify.app/",
+      data: "1a"
     },
 
     {
@@ -70,6 +74,7 @@ export const Projects = () => {
       stack: "HTML, CSS, JavaScript, API",
       git: "https://github.com/RAY-DEV67/MAPTY",
       live: "https://mapti-workouts.netlify.app/",
+      data: "2a"
     },
 
     {
@@ -79,6 +84,7 @@ export const Projects = () => {
       stack: "HTML, CSS, JavaScript, Jquery",
       git: "https://github.com/RAY-DEV67/PIG-GAME",
       live: "https://henry-pig-game.netlify.app/",
+      data: "3a"
     },
 
     {
@@ -88,6 +94,7 @@ export const Projects = () => {
       stack: "React, CSS, Tailwind",
       git: "https://github.com/RAY-DEV67/WELCOME-TO-SPACE",
       live: "https://henry-space-tourism.netlify.app/",
+      data: "4a"
     },
 
     {
@@ -97,6 +104,7 @@ export const Projects = () => {
       stack: "React, CSS, Bootstrap",
       git: "https://github.com/RAY-DEV67/PORTFOLIO",
       live: "",
+      data: "5a"
     },
   ];
 
@@ -108,6 +116,7 @@ export const Projects = () => {
       stack: "HTML, Tailwind, Jquery",
       git: "https://github.com/RAY-DEV67/MANAGE-LANDING-PAGE/tree/new-feature",
       live: "https://manage-landin-page.netlify.app/",
+      data: "1b"
     },
     {
       title: "BOOKMARK",
@@ -116,6 +125,7 @@ export const Projects = () => {
       stack: "React JS, Tailwind",
       git: "https://github.com/RAY-DEV67/Bookmark-Landing-Page",
       live: "https://bookmark-landin-page.netlify.app/",
+      data: "2b"
     },
     {
       title: "EASY-BANK",
@@ -124,6 +134,7 @@ export const Projects = () => {
       stack: "HTML, CSS, Tailwind , Jquery",
       git: "https://github.com/RAY-DEV67/EASY-BANK",
       live: "https://henry-easy-bank.netlify.app/",
+      data: "3b"
     },
     {
       title: "CLIPBOARD",
@@ -132,6 +143,7 @@ export const Projects = () => {
       stack: "HTML, CSS, Tailwind, JavaScript",
       git: "https://github.com/RAY-DEV67/CLIPBOARD-LANDING-PAGE",
       live: "https://clipboarde-landing-page.netlify.app/",
+      data: "4b"
     },
     {
       title: "SHORTLY",
@@ -140,6 +152,7 @@ export const Projects = () => {
       stack: "React, CSS,Tailwind",
       git: "https://github.com/RAY-DEV67/SHORTLY",
       live: "https://shortly-link-app.netlify.app/",
+      data: "5b"
     },
     {
       title: "CROWDFUNDING",
@@ -148,6 +161,7 @@ export const Projects = () => {
       stack: "HTML, CSS, JavaScript",
       git: "https://github.com/RAY-DEV67/CROWD-FUNDING-LANDING-PAGE",
       live: "https://crowfundind.netlify.app/",
+      data: "6b"
     },
     {
       title: "BANKIST",
@@ -156,6 +170,7 @@ export const Projects = () => {
       stack: "HTML, CSS, JavaScript",
       git: "https://github.com/RAY-DEV67/BANKIST-WEB",
       live: "https://henry-bankist-web.netlify.app/",
+      data: "7b"
     },
     {
       title: "ROOM",
@@ -164,6 +179,7 @@ export const Projects = () => {
       stack: "HTML,Tailwind, JavaScript",
       git: "https://github.com/RAY-DEV67/ROOM-HOMEPAGE",
       live: "https://roomstore-homepage.netlify.app/",
+      data: "8b"
     },
     {
       title: "FYLO",
@@ -172,6 +188,7 @@ export const Projects = () => {
       stack: "HTML,Tailwind",
       git: "https://github.com/RAY-DEV67/FYLO-LANDING-PAGE",
       live: "https://fylo-landin-page.netlify.app/",
+      data: "9b"
     },
     {
       title: "INSURE",
@@ -180,6 +197,7 @@ export const Projects = () => {
       stack: "HTML, Bootstrap, JQuery",
       git: "https://github.com/RAY-DEV67/INSURE-LANDING-PAGE",
       live: "https://insure-landin-pge.netlify.app/",
+      data: "10b"
     },
     {
       title: "LOOPSTUDIO",
@@ -188,6 +206,7 @@ export const Projects = () => {
       stack: "HTML, CSS, JavaScript",
       git: "https://github.com/RAY-DEV67/LOOPSTUDIO",
       live: "https://loopstudio-landin-page.netlify.app/",
+      data: "11b"
     },
     {
       title: "BLOGR",
@@ -196,6 +215,7 @@ export const Projects = () => {
       stack: "HTML, CSS, JavaScript",
       git: "https://github.com/RAY-DEV67/BLOGR-LANDING-PAGE",
       live: "https://blogr-landin-page.netlify.app/",
+      data: "12b"
     },
     {
       title: "SNAP",
@@ -204,6 +224,7 @@ export const Projects = () => {
       stack: "HTML, CSS, JavaScript",
       git: "https://github.com/RAY-DEV67/SNAP-LANDING-PAGE",
       live: "https://snap-landin-page.netlify.app/",
+      data: "13b"
     },
   ];
 
@@ -215,6 +236,7 @@ export const Projects = () => {
       stack: "HTML, CSS, Bootstrap, JavaScript , Jquery",
       git: "https://github.com/RAY-DEV67/SHOE-STORE",
       live: "https://henry-shoe-store.netlify.app/",
+      data: "1c"
     },
   ];
 
@@ -226,6 +248,7 @@ export const Projects = () => {
       stack: "React, CSS, API",
       git: "https://github.com/RAY-DEV67/ADVICE-APP",
       live: "https://henrys-advice.netlify.app/",
+      data: "1d"
     },
     {
       title: " Tracking Dashboard",
@@ -234,6 +257,7 @@ export const Projects = () => {
       stack: "HTML, CSS, JavaScript, JSON",
       git: "https://github.com/RAY-DEV67/TIME-TRACKING-DASHBOARD",
       live: "https://time-tracking-dashbod.netlify.app/",
+      data: "2d"
     },
     {
       title: "Tip Calculator",
@@ -242,6 +266,7 @@ export const Projects = () => {
       stack: "HTML, CSS, JavaScript",
       git: "https://github.com/RAY-DEV67/TIP-CALCULATOR",
       live: "https://henrys-tip-calculator.netlify.app/",
+      data: "3d"
     },
 
     {
@@ -251,6 +276,7 @@ export const Projects = () => {
       stack: "React, CSS",
       git: "https://github.com/RAY-DEV67/MULTI-STEP-FORM",
       live: "https://henry-multi-step-form.netlify.app/",
+      data: "4d"
     },
   ];
 
@@ -296,28 +322,28 @@ export const Projects = () => {
                       <Tab.Pane eventKey="first">
                         <Row ref={projectsRef} className={ projectIsVisible ? "showcontent" : "content"} >
                           {main.map((project, index) => {
-                            return <Main key={index}  {...project} />;
+                            return <Main key={index}  {...project} setshowAbout={setshowAbout} aboutProject = {aboutProject} setaboutProject = {setaboutProject}/>;
                           })}
                         </Row>
                       </Tab.Pane>
                       <Tab.Pane eventKey="second">
                       <Row ref={LandingPageRef}  className={ landingIsVisible ? "showcontent" : "content"}>
                           {landingPage.map((project, index) => {
-                            return <LandingPageCard key={index} {...project} />;
+                            return <LandingPageCard key={index} {...project} aboutProject = {aboutProject} setaboutProject = {setaboutProject} setshowAbout={setshowAbout}/>;
                           })}
                         </Row>
                       </Tab.Pane>
                       <Tab.Pane eventKey="third">
                         <Row ref={ecommerceRef}  className={ ecommerceIsVisible ? "showcontent" : "content"}>
                           {eCommerce.map((project, index) => {
-                            return <Ecommerce key={index} {...project} />;
+                            return <Ecommerce key={index} {...project} aboutProject = {aboutProject} setaboutProject = {setaboutProject} setshowAbout={setshowAbout}/>;
                           })}
                         </Row>
                       </Tab.Pane>
                       <Tab.Pane eventKey="fourth">
                         <Row ref={othersRef}  className={ othersIsVisible ? "showcontent" : "content"}>
                           {others.map((project, index) => {
-                            return <OthersCard key={index} {...project} />;
+                            return <OthersCard key={index} {...project} aboutProject = {aboutProject} setaboutProject = {setaboutProject} setshowAbout={setshowAbout} />;
                           })}
                         </Row>
                       </Tab.Pane>
@@ -330,6 +356,7 @@ export const Projects = () => {
         </Row>
       </Container>
       <img className="background-image-right" src={colorSharp2} alt=""></img>
+      <About aboutProject = {aboutProject} setaboutProject = {setaboutProject} showAbout={showAbout}/>
     </section>
   );
 };

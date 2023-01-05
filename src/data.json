@@ -1,0 +1,345 @@
+{
+    "main" : [
+    {
+      "title": "Bankist App",
+      "description": "Design & Development",
+      "stack": "Built using HTML, CSS and JavaScript",
+      "git": "https://github.com/RAY-DEV67/BANKIST",
+      "live": "https://bankist-finapp.netlify.app/",
+      "text": "BANKIST is a fintech app that allows easy and fast transactions between users.",
+      "users": "Users should be able to:",
+      "about":[
+        "- View the optimal layout for the site depending on their device's screen size",
+"- See hover states for all interactive elements on the page",
+"- Login using DEMO accounts",
+"- Transfer and Receive money from one DEMO account to another", 
+"- View updated transactions and Account balance"
+    ]
+    },
+
+    {
+      "title": "Mapty",
+      "description": "Design & Development",
+      "stack": "Built using HTML, CSS and JavaScript",
+      "git": "https://github.com/RAY-DEV67/MAPTY",
+      "live": "https://mapti-workouts.netlify.app/",
+      "text": "Mapty is a work-out tracking app. It allows users save their work-out activities based on their current workout location.",
+      "users": "Users should be able to:",
+      "about":[
+         "- View the optimal layout for the site depending on their device's screen size",
+"- See hover states for all interactive elements on the page",
+"- View current position on map",
+"- Save Work-out details on Current Location", 
+"- View all work-out details"
+      ]
+    },
+
+    {
+      "title": "Pig Game",
+      "description": "Design & Development",
+      "stack": "Built using HTML, CSS , JavaScript and Jquery",
+      "git": "https://github.com/RAY-DEV67/PIG-GAME",
+      "live": "https://henry-pig-game.netlify.app/",
+      "text": "Pig Game if a fun and easy game which can be played between two people.",
+      "about":[
+        "- Each player can keep on Rolling the dice and keep increasing your current score, until you roll the Number 1",
+" -When a player rolls the number 1, you immediately lose all the points in your current score and the next player becomes the active Player.",
+"  - To avoid losing all your points, A player can click on 'Hold'.",
+"- This will immediately add your current score to your Total Score,  and the next player becomes the active Player.", 
+" A player is declared the winner when he has a Total score of 100."
+     ]
+    },
+
+    {
+      "title": "Space",
+      "description": "Design & Development",
+      "stack": " Built using React, CSS and Tailwind",
+      "git": "https://github.com/RAY-DEV67/WELCOME-TO-SPACE",
+      "live": "https://henry-space-tourism.netlify.app/",
+      "text": "A landing page for a space tourism organization.",
+      "users": "Users should be able to:",
+      "about":[
+         "- View the optimal layout for the site depending on their device's screen size",
+"- See hover states for all interactive elements on the page",
+"- View each page and be able to toggle between the tabs to see new information"
+      ]
+    },
+    {
+      "title": "Portfolio",
+      "description": "Design & Development",
+      "stack": "React, CSS, Bootstrap",
+      "git": "https://github.com/RAY-DEV67/PORTFOLIO",
+      "live": "",
+      "users": "Users should be able to:",
+      "about":[
+         "- View the optimal layout for the site depending on their device's screen size",
+"- See hover states for all interactive elements on the page",
+"- View each page and be able to toggle between the tabs to see new information"
+      ]
+    }
+  ],
+
+  "landingPage": [
+    {
+      "title": "MANAGE",
+      "description": "Design & Development",
+      "stack": "Built using HTML, Tailwind and Jquery",
+      "git": "https://github.com/RAY-DEV67/MANAGE-LANDING-PAGE/tree/new-feature",
+     " live": "https://manage-landin-page.netlify.app/",
+     "text": "A modern Landing page.",
+     "users": "Users should be able to:",
+     "about":[
+        "- View the optimal layout for the site depending on their device's screen size",
+"- See hover states for all interactive elements on the page",
+"- View each page and be able to toggle between the tabs to see new information",
+"- See all testimonials in a horizontal slider",
+"- Receive an error message when the newsletter sign up `form` is submitted if The `input` field is empty or The email address is not formatted correctly "
+     ]
+    },
+    {
+      "title": "BOOKMARK",
+      "description": "Design & Development",
+      "stack": "Built using React js and Tailwind",
+      "git": "https://github.com/RAY-DEV67/Bookmark-Landing-Page",
+      "live": "https://bookmark-landin-page.netlify.app/",
+      "text": "A modern Landing page.",
+      "users": "Users should be able to:",
+      "about":[
+         "- View the optimal layout for the site depending on their device's screen size",
+ "- See hover states for all interactive elements on the page",
+ "- Receive an error message when the newsletter sign up `form` is submitted if The `input` field is empty or The email address is not formatted correctly "
+      ]
+    },
+    {
+      "title": "EASY-BANK",
+      "description": "Design & Development",
+      "stack": "Built using HTML, CSS, Tailwind and Jquery",
+      "git": "https://github.com/RAY-DEV67/EASY-BANK",
+      "live": "https://henry-easy-bank.netlify.app/",
+      "text": "A modern Landing page.",
+      "users": "Users should be able to:",
+      "about":[
+         "- View the optimal layout for the site depending on their device's screen size",
+ "- See hover states for all interactive elements on the page"
+      ]
+    },
+    {
+      "title": "CLIPBOARD",
+      "description": "Design & Development",
+      "stack": "Built using HTML,CSS, Tailwind and JavaScript",
+      "git": "https://github.com/RAY-DEV67/CLIPBOARD-LANDING-PAGE",
+      "live": "https://clipboarde-landing-page.netlify.app/",
+      "text": "A modern Landing page.",
+      "users": "Users should be able to:",
+      "about":[
+         "- View the optimal layout for the site depending on their device's screen size",
+ "- See hover states for all interactive elements on the page"
+      ]
+    },
+    {
+      "title": "SHORTLY",
+      "description": "Design & Development",
+      "stack": " Built using HTML, Tailwind and Jquery",
+      "git": "https://github.com/RAY-DEV67/SHORTLY",
+      "live": "https://shortly-link-app.netlify.app/",
+      "text": "A modern application which helps users shorten their links.",
+      "users": "Users should be able to:",
+      "about":[
+         "- View the optimal layout for the site depending on their device's screen size",
+ "- Shorten any valid URL",
+ "- See a list of their shortened links, even after refreshing the browser",
+ "- Copy the shortened link to their clipboard in a single click",
+ "- Receive an error message when the newsletter sign up `form` is submitted if The `input` field is empty"
+      ]
+    },
+    {
+      "title": "CROWDFUNDING",
+      "description": "Design & Development",
+      "stack": "Built using HTML, CSS and JavaScript",
+      "git": "https://github.com/RAY-DEV67/CROWD-FUNDING-LANDING-PAGE",
+      "live": "https://crowfundind.netlify.app/",
+      "text": "A modern Landing page.",
+      "users": "Users should be able to:",
+      "about":[
+         "- View the optimal layout for the site depending on their device's screen size",
+ "- See hover states for interactive elements",
+ "- Make a selection of which pledge to make",
+ "- See an updated progress bar and total money raised based on their pledge total after confirming a pledge",
+ "- See the number of total backers increment by one after confirming a pledge"
+      ]
+    },
+    {
+      "title": "BANKIST",
+      "description": "Design & Development",
+      "stack": "Built using HTML, CSS and JavaScript",
+      "git": "https://github.com/RAY-DEV67/BANKIST-WEB",
+      "live": "https://henry-bankist-web.netlify.app/",
+      "text": "A modern Landing page.",
+      "users": "Users should be able to:",
+      "about":[
+         "- View the optimal layout for the site depending on their device's screen size",
+ "- See hover states for interactive elements"
+      ]
+    },
+    {
+      "title": "ROOM",
+      "description": "Design & Development",
+      "stack": "Built using HTML, Tailwind and JavaScript",
+      "git": "https://github.com/RAY-DEV67/ROOM-HOMEPAGE",
+      "live": "https://roomstore-homepage.netlify.app/",
+      "text": "A modern Landing page.",
+      "users": "Users should be able to:",
+      "about":[
+         "- View the optimal layout for the site depending on their device's screen size",
+ "- See hover states for interactive elements",
+ "  - Navigate the slider"
+      ]
+    },
+    {
+      "title": "FYLO",
+      "description": "Design & Development",
+      "stack": "Built using HTML and Tailwind",
+      "git": "https://github.com/RAY-DEV67/FYLO-LANDING-PAGE",
+      "live": "https://fylo-landin-page.netlify.app/",
+      "text": "A modern Landing page.",
+      "users": "Users should be able to:",
+      "about":[
+         "- View the optimal layout for the site depending on their device's screen size",
+ "- See hover states for interactive elements"
+      ]
+    },
+    {
+      "title": "INSURE",
+      "description": "Design & Development",
+      "stack": "Built using HTML, Bootstrap and Jquery",
+      "git": "https://github.com/RAY-DEV67/INSURE-LANDING-PAGE",
+      "live": "https://insure-landin-pge.netlify.app/",
+      "text": "A modern Landing page.",
+      "users": "Users should be able to:",
+      "about":[
+         "- View the optimal layout for the site depending on their device's screen size",
+ "- See hover states for interactive elements"
+      ]
+    },
+    {
+      "title": "LOOPSTUDIO",
+      "description": "Design & Development",
+      "stack": "Built using HTML, CSS and JavaScript",
+      "git": "https://github.com/RAY-DEV67/LOOPSTUDIO",
+      "live": "https://loopstudio-landin-page.netlify.app/",
+      "text": "A modern Landing page.",
+      "users": "Users should be able to:",
+      "about":[
+         "- View the optimal layout for the site depending on their device's screen size",
+ "- See hover states for interactive elements"
+      ]
+    },
+    {
+      "title": "BLOGR",
+      "description": "Design & Development",
+      "stack": "Built using HTML, CSS and JavaScript",
+      "git": "https://github.com/RAY-DEV67/BLOGR-LANDING-PAGE",
+      "live": "https://blogr-landin-page.netlify.app/",
+      "text": "A modern Landing page.",
+      "users": "Users should be able to:",
+      "about":[
+         "- View the optimal layout for the site depending on their device's screen size",
+ "- See hover states for interactive elements"
+      ]
+    },
+    {
+      "title": "SNAP",
+      "description": "Design & Development",
+      "stack": "Built using HTML, CSS and JavaScript",
+      "git": "https://github.com/RAY-DEV67/SNAP-LANDING-PAGE",
+      "live": "https://snap-landin-page.netlify.app/",
+      "text": "A modern Landing page.",
+      "users": "Users should be able to:",
+      "about":[
+         "- View the optimal layout for the site depending on their device's screen size",
+ " - View the relevant dropdown menus on desktop and mobile when interacting with the navigation links"
+      ]
+    }
+  ],
+
+  "eCommerce" : [
+    {
+      "title": "Sneaker Company",
+      "description": "Design & Development",
+      "stack": "Built using HTML, CSS, Bootstrap, Javascript and Jquery",
+      "git": "https://github.com/RAY-DEV67/SHOE-STORE",
+      "live": "https://henry-shoe-store.netlify.app/",
+      "text": "A single page Shoe store.",
+      "users": "Users should be able to:",
+      "about":[
+         "- View the optimal layout for the site depending on their device's screen size",
+ "- See hover states for interactive elements",
+ "- Open a lightbox gallery by clicking on the small product image",
+ "- Add items to the cart",
+ "- View the cart and remove items from it"
+      ]
+    }
+  ],
+
+  "others" : [
+    {
+      "title": "ADVICE API",
+      "description": "Design & Development",
+      "stack": "Built using React, CSS and API",
+      "git": "https://github.com/RAY-DEV67/ADVICE-APP",
+      "live": "https://henrys-advice.netlify.app/",
+      "text": "An Advice Generator which you can use to generate advice and also tweet the advice generated.",
+      "users": "Users should be able to:",
+      "about":[
+        "- View the optimal layout for the site depending on their device's screen size",
+"- See hover states for interactive elements",
+"- Generate a new piece of advice by clicking the dice icon",
+"- Tweet the newly generated advice by clicking the Twitter icon"
+     ]
+    },
+    {
+      "title": " Tracking Dashboard",
+      "description": "Design & Development",
+      "stack": " Built using HTML, CSS, JavaScript and JSON",
+      "git": "https://github.com/RAY-DEV67/TIME-TRACKING-DASHBOARD",
+      "live": "https://time-tracking-dashbod.netlify.app/",
+      "text": "A time tracking dashbord.",
+      "users": "Users should be able to:",
+      "about":[
+        "- View the optimal layout for the site depending on their device's screen size",
+"- See hover states for interactive elements",
+" - Switch between viewing Daily, Weekly, and Monthly stats"
+     ]
+    },
+    {
+      "title": "Tip Calculator",
+      "description": "Design & Development",
+      "stack": "Built using HTML, Tailwind and Jquery",
+      "git": "https://github.com/RAY-DEV67/TIP-CALCULATOR",
+      "live": "https://henrys-tip-calculator.netlify.app/",
+      "text": "A web application used in calculatin the tip percentage relative to the give price.",
+      "users": "Users should be able to:",
+      "about":[
+        "- View the optimal layout for the site depending on their device's screen size",
+"- See hover states for interactive elements",
+"- Calculate the correct tip and total cost of the bill per person"
+     ]
+    },
+
+    {
+      "title": "Multi Step Form",
+      "description": "Design & Development",
+      "stack": "Built using React and CSS",
+      "git": "https://github.com/RAY-DEV67/MULTI-STEP-FORM",
+      "live": "https://henry-multi-step-form.netlify.app/",
+      "text": "",
+      "users": "Users should be able to:",
+      "about":[
+        "- Complete each step of the sequence",
+        "- See a summary of their selections on the final step and confirm their order",
+"- See hover states for interactive elements",
+"- View the optimal layout for the interface depending on their device's screen size"
+     ]
+    }
+  ]
+}

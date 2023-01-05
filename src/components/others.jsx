@@ -1,7 +1,14 @@
 import { Col } from "react-bootstrap";
+import $ from "jquery"
 
-export function OthersCard({ title, git, live, stack, imgUrl }) {
-    return ( 
+export function OthersCard({ title, git, live, stack, imgUrl, data,setshowAbout, setaboutProject }) {
+  function openAbout(){
+    setaboutProject(data)
+                $(".about-page").fadeIn()
+                $(".overlay").fadeIn()
+  }
+  
+  return ( 
         <Col size={12} sm={6} md={4}>
         <div className="proj-imgbx">
           <img src={imgUrl} alt="" />
@@ -11,7 +18,7 @@ export function OthersCard({ title, git, live, stack, imgUrl }) {
             <p>{stack}</p>
             <div className="code">
             <a href={git} target="_blank" rel="noreferrer" className="git">Git-hub</a>
-            <button className="about">About App</button>
+            <button className="about" onClick={openAbout} >About App</button>
             <a href={live} target="_blank" rel="noreferrer" className="live">Live Site</a>
             </div>
           </div>
