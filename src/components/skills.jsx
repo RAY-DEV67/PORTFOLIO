@@ -49,9 +49,6 @@ export const Skills = () => {
               <div className="slider">
                 <div className="slide-track">
                   {/* SLIDES///// */}
-                  <div className="slide softtools">
-                    <h5>Web Development</h5>
-                  </div>
 
                   <div className="slide softtools">
                     <h5>Presentation Skills</h5>
@@ -71,9 +68,6 @@ export const Skills = () => {
 
                   {/* SAME SLIDES (DOUBLED)//////// */}
 
-                  <div className="slide softtools">
-                    <h5>Web Development</h5>
-                  </div>
 
                   <div className="slide softtools">
                     <h5>Presentation Skills</h5>

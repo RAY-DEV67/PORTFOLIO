@@ -300,18 +300,18 @@ export const Projects = ({showAbout , setshowAbout}) => {
                       id="pills-tab"
                     >
                       <Nav.Item>
-                        <Nav.Link eventKey="first">Main Projects</Nav.Link>
+                        <Nav.Link eventKey="first" className="proj-head">Main Projects</Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
-                        <Nav.Link eventKey="second">Landing Page</Nav.Link>
+                        <Nav.Link eventKey="second" className="proj-head">Landing Page</Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
-                        <Nav.Link eventKey="third" className="ecommerce">
+                        <Nav.Link eventKey="third" className="ecommerce proj-head">
                           E-Commerce
                         </Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
-                        <Nav.Link eventKey="fourth" className="landing_page">
+                        <Nav.Link eventKey="fourth" className="landing_page proj-head">
                           Others
                         </Nav.Link>
                       </Nav.Item>
