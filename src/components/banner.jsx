@@ -18,7 +18,7 @@ export function Banner() {
               {({ isVisible }) => (
                 <div>
                   <span ref={headRef} className={myheadIsVisible ? "showtag tagline" : "tag"} >Welcome to my Portfolio</span>
-               <h1  ref={headRef} className={myheadIsVisible ? "showcontent" : "content"}>{`Hi i'm Henry`}</h1>
+               <h1  ref={headRef} className={myheadIsVisible ? "showcontent" : "content"}>{`Hi I'm Henry`}</h1>
                   <h1  ref={headRef} className={myheadIsVisible ? "showdev" : ""}>A Frontend <span className="deve">Developer</span></h1>
                   <p  ref={profileRef} className={profileIsVisible ? " showhead" : "head"}>
                     Customer-focused software developer with superior
