@@ -17,8 +17,9 @@ export const Contact = () => {
             <a href="https://www.linkedin.com/in/ekene-elebor-57ba38206/" target="_blank" rel="noreferrer"><img src={navIcon1} alt="Icon" /></a>
               <a href="https://twitter.com/Ray_dev67" target="_blank" rel="noreferrer"><img src={navIcon3} alt="Icon" /></a>
             </section>
-             <div>
+             <div className="contactmail">
              <a href="mailto:henryekene@gmail.com" className="mail">Send me a mail</a>
+             <a href="tel:{+2348114291075}" className="mail">Call Me</a>
              </div>
             </div>
      </div>
