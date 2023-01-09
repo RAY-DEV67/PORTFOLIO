@@ -10,36 +10,21 @@ import bootstrap from "../images/bootstrap.png";
 import react from "../images/react.png";
 import git from "../images/git.png";
 import { useInView } from "react-intersection-observer";
+import { AboutMe } from "./aboutme";
 
 export const Skills = () => {
-  // const responsive = {
-  //   superLargeDesktop: {
-  //     breakpoint: { max: 4000, min: 3000 },
-  //     items: 5,
-  //   },
-  //   desktop: {
-  //     breakpoint: { max: 3000, min: 1024 },
-  //     items: 3,
-  //   },
-  //   tablet: {
-  //     breakpoint: { max: 1024, min: 464 },
-  //     items: 2,
-  //   },
-  //   mobile: {
-  //     breakpoint: { max: 464, min: 0 },
-  //     items: 1,
-  //   },
-  // };
 
   const { ref: profileRef, inView: profileIsVisible } = useInView();
 
   return (
-    <section className="skill" id="skills">
+    <div className="skill">
+      <AboutMe/>
+      <section className="skill" id="skills">
       <div className="container">
         <div className="row">
           <div className="col-12">
             <div className="skill-bx wow zoomIn">
-              <h2>My Skills</h2>
+              <h2>My Skills 👌</h2>
              <div className="skilldiv">
              <p ref={profileRef} className={profileIsVisible ? "skilltext showhead" : "head skilltext"}>I am a Frontend Engineer with experience working with different technologies, bringing solution to the web</p>
 
@@ -191,5 +176,6 @@ export const Skills = () => {
       </div>
       <img className="background-image-left" src={colorSharp} alt="" />
     </section>
+    </div>
   );
 };

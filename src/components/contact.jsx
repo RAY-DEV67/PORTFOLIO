@@ -11,7 +11,7 @@ export const Contact = () => {
     <section className="contact" id="connect">
       <img src={contactImg} alt="Contact Us" className="contactimage"/>
      <div>
-     <h2>Get In Touch</h2>
+     <h2>Get In Touch 📲</h2>
       <div className="social-icon">
             <section>
             <a href="https://www.linkedin.com/in/ekene-elebor-57ba38206/" target="_blank" rel="noreferrer"><img src={navIcon1} alt="Icon" /></a>

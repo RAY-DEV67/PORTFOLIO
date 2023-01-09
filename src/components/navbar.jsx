@@ -32,6 +32,7 @@ export const NavBar = () => {
   }} />
 <div class="hidden">
 <a href="#home" className="home-nav">Home</a>
+<a href="#about" className="about-nav">About</a>
 <a href="#skills" className="skill-nav">Skills</a>
 <a href="#project" className="project-nav">Projects</a>
 </div>
@@ -51,6 +52,9 @@ Let’s Connect
 <a href="#home" className="home-nav"   onClick={() => {
     setshowMobile(false)
   }}>Home</a>
+  <a href="#about" className="about-nav"   onClick={() => {
+    setshowMobile(false)
+  }}>About</a>
 <a href="#skills" className="skill-nav"   onClick={() => {
     setshowMobile(false)
   }}>Skills</a>

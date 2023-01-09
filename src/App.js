@@ -23,7 +23,7 @@ useEffect(() => {
 }, []);
 
   return (
-    <div className="App">
+    <div className="App fontlink">
       {loading ? <div className="intro-cont">
         <img src={intro} alt="" className="intro"/> 
       </div>

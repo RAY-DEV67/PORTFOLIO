@@ -292,7 +292,7 @@ export const Projects = ({showAbout , setshowAbout}) => {
                     isVisible ? "" : ""
                   }
                 >
-                  <h2 ref={myRef} className={ myElementIsVisible ? "showhead mb-4" : "head"}>Projects</h2>
+                  <h2 ref={myRef} className={ myElementIsVisible ? "showhead mb-4" : "head"}>My Projects 👨‍💻</h2>
                   <Tab.Container id="projects-tabs" defaultActiveKey="first">
                     <Nav
                       variant="pills"
