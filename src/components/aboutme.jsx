@@ -16,7 +16,7 @@ export function AboutMe() {
     <p ref={profileRef2} className={profileIsVisible2 ? "aboutme showhead" : "head aboutme"}> With over 2 years of experience in the industry, I have a passion for creating visually stunning and user-friendly websites and applications. My expertise lies in HTML, CSS, and JavaScript, and I am proficient in a variety of frontend frameworks such as React.</p>
        <p ref={profileRef3} className={profileIsVisible3 ? "aboutme showhead" : "head aboutme"}>In my previous roles, I have worked on a wide range of projects, from small business websites to large-scale web applications. I am a strong problem solver and thrive in fast-paced, dynamic environments.</p>
        <p ref={profileRef4} className={profileIsVisible4 ? "aboutme showhead" : "head aboutme"}>I am constantly learning and staying up-to-date with the latest web development trends and technologies. In my spare time, I enjoy attending meetups and conferences.</p>
-       <p ref={profileRef5} className={profileIsVisible5 ? "aboutme showhead" : "head aboutme"}>I am excited to bring my skills and experience to new challenges and opportunities. Thank you for visiting my portfolio. Feel free to <a className="contact-me mail" href="#connect">contact me</a> if you have any questions or would like to work together.</p>
+       <p ref={profileRef5} className={profileIsVisible5 ? "aboutme showhead" : "head aboutme"}>I am excited to bring my skills and experience to new challenges and opportunities. Thank you for visiting my portfolio.<br></br> Feel free to <a className="contact-me mail" href="#connect">contact me</a> if you have any questions or would like to work together.</p>
        </div> );
 }
 
