@@ -49,20 +49,20 @@ Let’s Connect
   }}
 >X</p>
 <div class="ray">
-<a href="#home" className="home-nav"   onClick={() => {
+<a href="#home" className={showMobile ? "showhome-nav" : "home-nav"}   onClick={() => {
     setshowMobile(false)
   }}>Home</a>
-  <a href="#about" className="about-nav"   onClick={() => {
+  <a href="#about" className={showMobile ? "showabout-nav about-nav" : "home-nav"}   onClick={() => {
     setshowMobile(false)
   }}>About</a>
-<a href="#skills" className="skill-nav"   onClick={() => {
+<a href="#skills" className={showMobile ? "showskill-nav skill-nav" : "home-nav"}   onClick={() => {
     setshowMobile(false)
   }}>Skills</a>
-<a href="#project" className="project-nav"   onClick={() => {
+<a href="#project" className={showMobile ? "showproject-nav" : "home-nav"}   onClick={() => {
     setshowMobile(false)
   }}>Projects</a>
 </div>
-<a href='#connect' class="mobilebutton button "   onClick={() => {
+<a href='#connect' class="mobilebutton button " className={showMobile ? "showmobilebutton mobilebutton button " : "home-nav"}  onClick={() => {
     setshowMobile(false)
   }}>
 Let’s Connect
