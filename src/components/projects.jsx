@@ -30,30 +30,11 @@ import TrackVisibility from "react-on-screen";
 import { Ecommerce } from "./ecommerce";
 import { Main } from "./main";
 import { About} from "./about";
-import { useInView } from 'react-intersection-observer';
 import { useState } from "react";
 
 export const Projects = ({showAbout , setshowAbout}) => {
   const [aboutProject, setaboutProject] = useState("1a");
 
-  const { ref : myRef, inView : myElementIsVisible} = useInView();
-  const { ref : projectsRef, inView : projectIsVisible} = useInView();
-  const { ref : LandingPageRef, inView : landingIsVisible} = useInView();
-  const { ref : ecommerceRef, inView : ecommerceIsVisible} = useInView();
-  const { ref : othersRef, inView : othersIsVisible} = useInView();
-
- 
-
-//   const myRef = useRef()
-//   const [myElementIsVisible, setmyElementIsVisible] = useState();
-//   console.log("my element", myElementIsVisible)
-// useEffect(() => {
-// const observer = new IntersectionObserver((entries) => {
-// const entry = entries[0]
-// setmyElementIsVisible(entry.isIntersecting)
-// })
-// observer.observe(myRef.current)
-// }, []);
 
 
   const main = [
@@ -292,7 +273,7 @@ export const Projects = ({showAbout , setshowAbout}) => {
                     isVisible ? "" : ""
                   }
                 >
-                  <h2 ref={myRef} className={ myElementIsVisible ? "showhead mb-4" : "head"}>My Projects 👨‍💻</h2>
+                  <h2 className="mb-4">My Projects 👨‍💻</h2>
                   <Tab.Container id="projects-tabs" defaultActiveKey="first">
                     <Nav
                       variant="pills"
@@ -320,28 +301,28 @@ export const Projects = ({showAbout , setshowAbout}) => {
                       id="slideInUp"
                     >
                       <Tab.Pane eventKey="first">
-                        <Row ref={projectsRef} className={ projectIsVisible ? "showcontent" : "content"} >
+                        <Row >
                           {main.map((project, index) => {
                             return <Main key={index}  {...project} setshowAbout={setshowAbout} aboutProject = {aboutProject} setaboutProject = {setaboutProject}/>;
                           })}
                         </Row>
                       </Tab.Pane>
                       <Tab.Pane eventKey="second">
-                      <Row ref={LandingPageRef}  className={ landingIsVisible ? "showcontent" : "content"}>
+                      <Row>
                           {landingPage.map((project, index) => {
                             return <LandingPageCard key={index} {...project} aboutProject = {aboutProject} setaboutProject = {setaboutProject} setshowAbout={setshowAbout}/>;
                           })}
                         </Row>
                       </Tab.Pane>
                       <Tab.Pane eventKey="third">
-                        <Row ref={ecommerceRef}  className={ ecommerceIsVisible ? "showcontent" : "content"}>
+                        <Row>
                           {eCommerce.map((project, index) => {
                             return <Ecommerce key={index} {...project} aboutProject = {aboutProject} setaboutProject = {setaboutProject} setshowAbout={setshowAbout}/>;
                           })}
                         </Row>
                       </Tab.Pane>
                       <Tab.Pane eventKey="fourth">
-                        <Row ref={othersRef}  className={ othersIsVisible ? "showcontent" : "content"}>
+                        <Row>
                           {others.map((project, index) => {
                             return <OthersCard key={index} {...project} aboutProject = {aboutProject} setaboutProject = {setaboutProject} setshowAbout={setshowAbout} />;
                           })}

@@ -7,7 +7,7 @@ import { useInView } from "react-intersection-observer";
 
 export function Banner() {
   const { ref: headRef, inView: myheadIsVisible } = useInView();
-  const { ref: profileRef, inView: profileIsVisible } = useInView();
+
 
   return (
     <section className="banner" id="home">
@@ -17,10 +17,10 @@ export function Banner() {
             <TrackVisibility>
               {({ isVisible }) => (
                 <div>
-                  <span ref={headRef} className={myheadIsVisible ? "showtag tagline" : "tag"} >Welcome to my Portfolio</span>
+                  <span className="tagline">Welcome to my Portfolio</span>
                <h1  ref={headRef} className={myheadIsVisible ? "showcontent" : "content"}>{`Hi I'm Henry`}</h1>
                   <h1  ref={headRef} className={myheadIsVisible ? "showdev" : ""}>A Frontend <span className="deve">Developer</span></h1>
-                  <p  ref={profileRef} className={profileIsVisible ? " showhead" : "head"}>
+                  <p>
                     Customer-focused software developer with superior
                     communication skills and expertise in various technical
                     platforms. Understands and meets both client and employer
