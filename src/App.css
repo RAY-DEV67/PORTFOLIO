@@ -280,6 +280,31 @@ margin: 0rem 1rem;
   align-items: center;
   flex-direction: column;
 }
+.aboutmore{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.readmore{
+  cursor: pointer;
+}
+.aboutmore a{
+  text-decoration: none;
+}
+.aboutcontact{
+  color: #B8B8B8;
+/* padding-bottom: 0.5rem; */
+border-bottom: 2px solid transparent;
+  background:
+    left 
+    bottom
+    transparent    
+    no-repeat; ;
+  background-size:100% 3px ;/* if linear-gradient, we need to resize it */
+  background-image: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
+
+}
 .aboutcontainer h2 {
 	font-size: 45px;
 	font-weight: 700;
@@ -761,8 +786,8 @@ background: linear-gradient(to right, #f32170,
   margin-top: 1rem;
 }
 .mail{
-  background-color: transparent;
-  border: 2px solid #AA367C;
+  /* background-color: transparent; */
+  border-bottom: 2px solid #AA367C;
   color: #fff;
   padding: 0.8rem 2rem;
   border-radius: 20px;

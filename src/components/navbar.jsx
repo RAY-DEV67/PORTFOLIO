@@ -62,7 +62,7 @@ Let’s Connect
     setshowMobile(false)
   }}>Projects</a>
 </div>
-<a href='#connect' class="mobilebutton button " className={showMobile ? "showmobilebutton mobilebutton button " : "home-nav"}  onClick={() => {
+<a href='#connect' class="contact-me mail" className={showMobile ? "showmobilebutton mobilebutton contact-me mail " : "home-nav"}  onClick={() => {
     setshowMobile(false)
   }}>
 Let’s Connect
