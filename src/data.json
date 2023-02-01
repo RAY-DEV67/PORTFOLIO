@@ -76,6 +76,21 @@
 "- See hover states for all interactive elements on the page",
 "- View each page and be able to toggle between the tabs to see new information"
       ]
+    },
+    {
+      "title": "Weather App",
+      "description": "Design & Development",
+      "stack": "Vue , Tailwind",
+      "git": "https://github.com/RAY-DEV67/Weather-App",
+      "live": "",
+      "users": "Users should be able to:",
+      "about":[
+         "- View the optimal layout for the site depending on their device's screen size",
+"- See hover states for all interactive elements on the page",
+"- View each page and be able to toggle between the tabs to see new information",
+"- View current weather report for any City",
+"- Save weather Report to Local Storage"
+      ]
     }
   ],
 
@@ -337,6 +352,22 @@
       "about":[
         "- Complete each step of the sequence",
         "- See a summary of their selections on the final step and confirm their order",
+"- See hover states for interactive elements",
+"- View the optimal layout for the interface depending on their device's screen size"
+     ]
+    },
+
+    {
+      "title": "Reaction Timer Game",
+      "description": "Design & Development",
+      "stack": "Built using Vue and CSS",
+      "git": "https://github.com/RAY-DEV67/MULTI-STEP-FORM",
+      "live": "https://henry-multi-step-form.netlify.app/",
+      "text": "",
+      "users": "Users should be able to:",
+      "about":[
+        "- start the game by clicking Play",
+        "- See how fast it took to click the pop-up box",
 "- See hover states for interactive elements",
 "- View the optimal layout for the interface depending on their device's screen size"
      ]

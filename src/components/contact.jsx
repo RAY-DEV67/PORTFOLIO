@@ -14,8 +14,8 @@ export const Contact = () => {
      <h2>Get In Touch 📲</h2>
       <div className="social-icon">
             <section>
-            <a href="https://www.linkedin.com/in/ekene-elebor-57ba38206/" target="_blank" rel="noreferrer"><img src={navIcon1} alt="Icon" /></a>
-              <a href="https://twitter.com/Ray_dev67" target="_blank" rel="noreferrer"><img src={navIcon3} alt="Icon" /></a>
+            <a href="https://www.linkedin.com/in/henryelebor/" target="_blank" rel="noreferrer"><img src={navIcon1} alt="Icon" /></a>
+              <a href="https://twitter.com/_BoyRay_" target="_blank" rel="noreferrer"><img src={navIcon3} alt="Icon" /></a>
             </section>
              <div className="contactmail">
              <a href="mailto:henryekene@gmail.com" className="mail">Send me a mail</a>

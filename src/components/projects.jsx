@@ -5,7 +5,9 @@ import crowdfunding from "../images/crowdfunding.png";
 import manage from "../images/manage.png";
 import bookmark from "../images/bookmark.png";
 import easybank from "../images/easybank.png";
+import Reaction from "../images/reaction.png";
 import space from "../images/space.png";
+import weather from "../images/weather.png";
 import shoe_ecommerce from "../images/shoe_ecommerce.png";
 import bankapp from "../images/bankist.png";
 import shortly from "../images/shortly.png";
@@ -86,6 +88,16 @@ export const Projects = ({showAbout , setshowAbout}) => {
       git: "https://github.com/RAY-DEV67/PORTFOLIO",
       live: "",
       data: "5a"
+    },
+
+    {
+      title: "Weather App",
+      description: "Design & Development",
+      imgUrl: weather,
+      stack: "VUE, Tailwind",
+      git: "https://github.com/RAY-DEV67/Weather-App",
+      live: "",
+      data: "6a"
     },
   ];
 
@@ -258,6 +270,16 @@ export const Projects = ({showAbout , setshowAbout}) => {
       git: "https://github.com/RAY-DEV67/MULTI-STEP-FORM",
       live: "https://henry-multi-step-form.netlify.app/",
       data: "4d"
+    },
+
+    {
+      title: "Reaction Timer Game",
+      description: "Design & Development",
+      imgUrl: Reaction,
+      stack: "Vue, CSS",
+      git: "https://github.com/RAY-DEV67/Reaction-Timer",
+      live: "https://gorgeous-raindrop-b5a2f3.netlify.app/",
+      data: "5d"
     },
   ];
 
