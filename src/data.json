@@ -114,7 +114,7 @@
     {
       "title": "BOOKMARK",
       "description": "Design & Development",
-      "stack": "Built using React js and Tailwind",
+      "stack": "Built using Vue and Tailwind",
       "git": "https://github.com/RAY-DEV67/Bookmark-Landing-Page",
       "live": "https://bookmark-landin-page.netlify.app/",
       "text": "A modern Landing page.",

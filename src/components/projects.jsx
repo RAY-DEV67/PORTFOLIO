@@ -115,7 +115,7 @@ export const Projects = ({showAbout , setshowAbout}) => {
       title: "BOOKMARK",
       description: "Design & Development",
       imgUrl: bookmark,
-      stack: "React JS, Tailwind",
+      stack: "Vue, Tailwind",
       git: "https://github.com/RAY-DEV67/Bookmark-Landing-Page",
       live: "https://bookmark-landin-page.netlify.app/",
       data: "2b"
